@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 100%;
+    --font_family:helvetica, verdana;
+    --cor_padrão:#212121;
+    --cor_padrão2:#F9A825;
+}
+main{
+    width: 100%;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    /* height: 15vh; */
+    height: 80px;
+    background-color: var(--cor_padrão);
+    align-items: center;
+}
+footer h2{
+    font-family: var(--font_family);
+    font-size: 1.2rem;
+    color: #fff;
+    width: 100%;
+    justify-content: center;
+    margin-left: 40%;
+
+}
+header.flex{
+    width: 100%;
+    /* height: 3.2rem; */
+    height: 40px;
+    background-color: var(--cor_padrão);
+}
+header.flex nav.flex{
+    width: 50%;
+     align-items: center; 
+    justify-content: flex-end; 
+    /* margin-right: 10%; */
+    align-content: space-between;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #fff
+}
+
+header.flex h1.flex{
+    font-size: 1rem;
+    font-family: var(--font_family);
+    color: #fff;
+    width: 50%;
+    margin-left: 7%; 
+    align-items: center;
+    align-content: center;
+    
+}
+.flex{
+    display: flex;
+}
+
+header.flex nav.flex ul.flex{
+    
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* justify-content: space-around; */
+}
+header.flex nav.flex ul.flex li.flex{
+    /* font-size: 1rem; */
+    font-family: var(--font_family);
+    list-style: none;
+    margin: 15px; 
+    height: 100%;
+
+    
+}
+header nav ul li:hover{
+    background-color: #F9A825;
+    transition: 5ms;
+    border-radius: 10%;
+
+}
+form{
+    width: 50%;
+    height: 15rem;
+    border: 0.5px solid #0D47A1;
+    flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+/* textarea{
+    width:20%
+}
+
+input{
+    width: 40%;
+    height: 20%;
+} */
+main form div.flex#texto{
+    width: 50%;
+    height: 80%;
+    border-right: 1px dashed black;
+    align-items: center;
+    
+}
+main form div#texto textarea{
+    width: 100%;
+    height: 70%;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+main form div.flex#email{
+    width: 50%;
+    height: 80%;
+    align-items: center;
+    /* border-radius: 10%; */
+    
+}
+main form div.flex#email input{
+    width: 100%;
+    height: 15%;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;    
+}
+ main form div.flex#botao{
+    margin-right: 10px;
+ }
+ main form div.flex#botao input{
+    background-color: #90A4AE;
+    border-radius: 5px;
+ }
+ main form div.flex#botao input:hover{
+    cursor: pointer;
+ }
